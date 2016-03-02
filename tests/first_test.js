@@ -17,7 +17,7 @@ describe("First Test", function() {
 		// Act (attempt the operation)
 		counter--;
 		// Assert (verify the result)
-		expect(counter).toEqual(-1);
+		expect(counter).toEqual(0);
 	})
 
 });
