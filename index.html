@@ -2,22 +2,26 @@
 <html ng-app="exampleApp">
 <head>
   <title>Example</title>
-  <script src="angular.js"></script>
-  <script src="app.js"></script>
-  <link href="bootstrap.css" rel="stylesheet" />
-  <link href="bootstrap-theme.css" rel="stylesheet" />
+  <script src="frontend/public/js/angular.js"></script>
+  <script src="frontend/public/js/app.js"></script>
+  <link href="frontend/public/css/bootstrap.css" rel="stylesheet" />
+  <link href="frontend/public/css/bootstrap-theme.css" rel="stylesheet" />
 </head>
   <body ng-controller="defaultCtrl">
     <div class="panel panel-default">
       <div class="panel-body">
+        
         <p>Counter: {{counter}}</p>
+        
         <p>
           <button class="btn btn-primary" 
                   ng-click="incrementCounter()">Increment</button>
-
-	<img src="http://lorempixel.com/400/200/sports/">
-
         </p>
+
+        <p>
+          <!-- <img src="http://lorempixel.com/400/200/sports/"> -->
+        </p>
+
       </div>
     </div>
   </body>

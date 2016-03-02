@@ -1,7 +1,6 @@
 {
-  "name": "karma_test",
+  "name": "angular_jenkins",
   "version": "0.0.1",
-  "private": true,
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
