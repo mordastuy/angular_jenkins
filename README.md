@@ -1,2 +1,2 @@
 # angular_jenkins
-Test using jenkins
+Test using jenkins with AngularJs project.
